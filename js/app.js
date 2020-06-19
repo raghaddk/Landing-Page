@@ -55,25 +55,6 @@ function buildNavbar(){
 
 // Add class 'active' to section when near top of viewport
 
-    
-
-// function active(){
-// window.addEventListener('scroll', function () {
-
-//     let section = document.querySelectorAll('.navbar__menu a');;
-//     let position = section.getBoundingClientRect().top;
-//     sections.forEach(section => {
-// 	if(position.top >= 0 && position.bottom <= window.innerHeight) {
-//         section.classList.add('your-active-class');
-//         section.style.cssText = "background-color: red ";
-//     }else {
-//         section.classList.remove('your-active-class');
-//     }
-// });
-
-// });
-// };
-
 
 function active(){
     var scrollpos = window.scrollY;
